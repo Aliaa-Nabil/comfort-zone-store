@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+   <meta name="author" content="Aliaa_Nabil" />
+
+   <title>Comfort Zone _furniture store_ website</title>
+
+     <!-- /////ICON//////// -->
+
+   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+   <!-- /////BOOTSTRAP-FILES//////// -->
+
+   <link href="css/bootstrap.min.css" rel="stylesheet" />
+   <link href="css/bootstrap-icons.css" rel="stylesheet" />
+   
+   <!-- /////CSS FILES//////// -->
+
+   <link href="css/style.css" rel="stylesheet" />
+   <link href="css/cart.style.css" rel="stylesheet" />
+   
+   <!-- /////FONT-AWESOME-FILES//////// -->
+
+   <link href="css/all.min.css" rel="stylesheet" />
+   <script src="https://kit.fontawesome.com/72d7197f3e.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+<body>
+
+
+<!--======== CART-START ======== -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart ">
+          <i class="fa-regular fa-circle-xmark"></i>
+        </span>
+        <h2>your cart</h2>
+        
+        <div class="cart-content">
+          <!-- cart item -->
+          <!-- <div class="cart-items">
+            <img src="images/products/p-2.jpg" alt="product" />
+            <div>
+              <h4>queen bed</h4>
+              <h5>$6</h5>
+              <span class="remove-item">remove</span>
+            </div>
+
+            <div>
+              <i class="fas fa-chevron-up"></i>
+              <p class="item-amount">1</p>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div> -->
+          <!-- end of cart item -->
+        </div>
+        
+        <div class="cart-footer">
+          <h4>your total : $ <span class="cart-total">0</span></h4>
+          <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+      </div>
+    </div>
+<!--======== CART-END ======== -->
+
+   <!--======== NAVBAR-START ======== -->
+   <nav class="navbar navbar-expand-lg w-100  ">
+      <div class="container-fluid d-flex justify-content-center">
+
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-bar"
+            aria-controls="#navbar-bar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="icon fas fa-bars"></i>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbar-bar">
+
+            <div class="navbar-nav d-flex justify-content-center col-4">
+
+               <a class="" href="#">
+                  <img class="logo m-1 " src="images/LOGO-02.png" alt="" />
+               </a>
+            </div>
+            <div class="navbar-nav col-4">
+
+               <a class="nav-link " href="#living_room">Living room</a>
+               <a class="nav-link " href="#bedroom">Bed room</a>
+               <a class="nav-link " href="#kitchen">Kitchen & Dining</a>
+               <a class="nav-link " href="#">contact</a>
+            </div>
+
+            <div class="navbar-nav  d-flex  justify-content-center col-4  ">
+
+               <form class="form-inline d-flex justify-content-center w-100 m-1" role="search">
+
+                  <input type="search" placeholder="search" style="font-family: Urbanist"
+                     aria-describedby="button-addon3" class="form-control search-box m-1" />
+
+                  <button class="special-btn srch-btn m-1" type="submit">
+                     <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+
+                  <span class="cart-btn special-btn  m-1" type="submit">
+                     <i class="fa-solid fa-basket-shopping"></i>
+                     <div class="cart-items">0</div>
+               </span>
+                  
+               </form>
+
+
+            </div>
+         </div>
+      </div>
+   </nav>
+   <!--======== NAVBAR-END ======== -->
+
+   <!--======== HERO-SLIDER-START ======== -->
+   <section  id="section_1 ">
+
+      <i class="bi bi-chevron-double-down down fa-beat"></i>
+
+      <div class="hero">
+         <div class="container-fluid h-100">
+            <div class="row h-100  ">
+               <div id="carouselExampleCaptions" class="carousel  hero-carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+
+                     <!-- <div class="carousel-item active ">
+
+                        <div class=" container position-relative h-100 ">
+                           <div class="caption-container row ">
+
+                              <div class=" d-flex   text-center flex-column justify-content-end align-content-center index ">
+                                 <div class="d-flex justify-content-center lower"><button class="  slider-btn fade-in shop-btn special-btn  ">SHOP NOW 
+                                 </button></div>     
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-image-wrap  ">
+                           <img src="images/slide/cz.png" class="img-fluid carousel-image" alt="slide2" />
+                        </div>
+                     </div> -->
+                     <div class="carousel-item active   ">
+                        <div class=" container position-relative h-100 ">
+                           <div class="caption-container row ">
+
+                              
+
+                           </div>
+                        </div>
+                        <div class="carousel-image-wrap  ">
+                           <img src="images/slide/cz.png" class="img-fluid carousel-image" alt="slide2" />
+                        </div>
+                     </div>
+                     
+                     <div class="carousel-item   ">
+                        <div class=" container position-relative h-100 ">
+                           <div class="caption-container row ">
+
+                              <div class=" d-flex   text-center flex-column justify-content-center align-content-center index   ">
+
+                                 <h2 class="fade-in-down my-5 ">
+                                    Furniture for  NOW <br> & FOREVER.
+                                 </h2>
+
+                                 <div class="d-flex justify-content-center
+                                  ">
+                                    <a href="shop.html"><button class="slider-btn fade-in shop-btn special-btn  ">SHOP NOW 
+                                 </button></a>
+                              </div>    
+                              </div>
+                  
+                           </div>
+                        </div>
+                        <div class="carousel-image-wrap  ">
+                           <img src="images/slide/jj.png" class="img-fluid carousel-image" alt="slide2" />
+                        </div>
+                     </div>
+                     <div class="carousel-item   ">
+                        <div class=" container position-relative h-100 ">
+                           <div class="caption-container row ">
+
+                              <div class=" d-flex   text-center flex-column justify-content-center align-content-center index   ">
+
+                                 <h2 class="my-5 fade-in-down ">
+                                    Made For your <br>Comfort.
+                                 </h2>
+                                 <div class="d-flex justify-content-center 
+                                 "><a href="shop.html"><button class=" fade-in shop-btn slider-btn special-btn  ">SHOP NOW 
+                                 </button></div></a>
+                                   
+                              </div>
+
+                           </div>
+                        </div>
+                        <div class="carousel-image-wrap  ">
+                           <img src="images/slide/ggg.png" class="img-fluid carousel-image" alt="slide2" />
+                        </div>
+                     </div>
+
+                     <button class="carousel-control-prev index" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+
+   </section>
+   <!--======== HERO-SLIDER-END ======== -->
+
+   <!--======== BEST-SELLER-START ======== -->
+   <section id="section_2">
+
+      <div class="header w-100 flex-column align-content-start  ">
+        
+         <div class=" p-4 justify-content-between d-flex align-items-center ">
+
+         <h2 class="main-text px-5 d-inline">Our best sellers </h2>
+         <a class="px-5" href="shop.html">see all -></a>
+      </div>
+      </div>
+
+
+      <div class=" container-fluid  product-container">
+
+         <div class=" products-center row g-5 p-5  ">
+  
+         </div>
+      </div>
+   </section>
+   <!--======== BEST-SELLER-END ======== -->
+
+
+   <!--======== BED-ROOMS-START ======== -->
+   <div id="bedroom">
+
+<div class="header w-100  flex-column align-content-start  ">
+         <div class=" p-4 justify-content-center d-flex align-items-center ">
+         <h2 class="main-text px-5 d-inline">Shop Bedrooms</h2>
+
+        </div>
+        </div>
+     <div class="room  text-center d-flex align-items-center " >
+         <div class="w-50 ">
+         <h2>
+            Bed <br> Rooms
+         </h2>
+       <p>A few improvements in your bedroom can make a big difference, both for falling asleep more easily and getting better sleep quality.  </p>
+      <a href="shop.html"><button class="shop-btn special-btn room-btn">Bedrooms</button></a>
+   </div>
+      </div>
+
+   </div>
+   <!--======== BED-ROOMS-END ======== -->
+
+
+   <!--======== POINTER-BANNER-START ======== -->
+   <section id="section_3">  
+      
+      <div class="header w-100  flex-column align-content-start  ">
+         
+         <div class=" p-4 justify-content-between d-flex align-items-center ">
+
+         <h2 class="main-text px-5 d-inline">Get Inspired  </h2>
+         <a class="px-5" href="shop.html">more inspo -></a>
+      </div>
+      </div>
+
+      <div class="container-fluid room-banner   ">
+         <div class="row m-auto">
+
+            <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12">
+
+               <div class="banner-text ">
+
+                  <h3>Timeless Pieces <br>for Now and <br>FOREVER.</h3>
+                  <a href="">read-more -></a>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-lg-9 col-sm-6 col-xs-12">
+
+               <div class="position-relative ">
+
+                  <div class="banner-photo ">
+
+                     <img class=" h-100" src="images/get-inspired.png" alt="banner images">
+
+                  </div>
+
+                  <div class="banner-info">
+
+
+                     <div class="pointer-circle pointer-1 align-top">
+                        <div class="info-box">
+                           <h4>Leather Chair</h4>
+                           <p>hand made foldable leather chair perfect for indoor & outdoors </p>
+                           <button class="special-btn m-1" type="submit">
+                              <i class="fa-solid fa-basket-shopping"></i>
+                           </button>
+                        </div>
+                     </div>
+
+
+                     <div class="pointer-circle pointer-2 align-top">
+                        <div class="info-box">
+                           <h4>Ratten stool</h4>
+                           <p>hand made from natural materials the perfect piece to complete the room.</p>
+                           <button class="special-btn  m-1" type="submit">
+                              <i class="fa-solid fa-basket-shopping"></i>
+                           </button>
+                        </div>
+                     </div>
+
+                     <div class="pointer-circle pointer-3 align-bottom">
+                        <div class="info-box">
+                           <h4>The perfect vase</h4>
+                           <p>made by our artist this vase is in trend and complimets every room. </p>
+                           <button class="special-btn  m-1" type="submit">
+                              <i class="fa-solid fa-basket-shopping"></i>
+                           </button>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--======== POINTER-BANNER-END ======== -->
+
+  <!--======== kitchen-START ======== -->
+    <div id="kitchen">
+
+   
+        <div class="header w-100  flex-column align-content-start  ">
+         <div class=" p-4 justify-content-center d-flex align-items-center ">
+         <h2 class="main-text px-5 d-inline">Shop Kitchens</h2>
+
+        </div>
+        </div>
+
+     <div class="room k-room text-center d-flex align-items-center justify-content-end ">
+         <div class="w-50">
+         <h2>
+            Kitchen  & <br> Dinning
+         </h2>
+       <p>A few improvements in your livingroom can make a big difference, both for falling asleep more easily and getting better sleep quality.</p>
+     <a href="shop.html"> <button class="shop-btn special-btn room-btn">Kitchens</button></a>
+   </div>
+      </div>
+   </div>
+   <!--======== kitchen-END ======== -->
+
+   <!--======== NEW-COLLECTION-START ======== -->
+   <section id="section_4">
+
+        <div class="header w-100  flex-column align-content-start  ">
+         <!-- <img class="m-3 px-2" src="images/logoo-06.png" alt="comfort-zone logo"> -->
+
+         <div class=" p-4 justify-content-between d-flex align-items-center ">
+
+         <h2 class="main-text px-5 d-inline">Our New Vases Collection   </h2>
+         <a class="px-5" href="shop.html">Full collection -></a>
+      </div>
+      </div>
+
+      <div class="container new-collection">
+
+         <div class=" slider-container v-container   ">
+
+            <div class=" left-slide flex-column ">
+               <div class="">
+                  <h3>Tamara Vase</h3>
+                  <h4>$240.00</h4>
+                  <p>A sculptural pedestal for fresh and faux flower arrangements, this elongated vase features a
+                     matte-finished exterior and clear glaze interior.</p>
+                  <button class=" special-btn shop-btn">Add To Cart</button>
+
+               </div>
+               <div class="">
+                  <h3>Ribbed Clay Decorative Vases</h3>
+                  <h4>$68.00</h4>
+                  <p>This pair of vases add a rustic touch to artful stems and dried florals alike.</p>
+
+                  <button class="special-btn shop-btn">Add To Cart</button>
+
+               </div>
+               <div class="">
+                  <h3>Mooney Vase</h3>
+                  <h4>$38.00</h4>
+                  <p>The bold texture of this handcrafted ceramic vase complements any floral arrangement.</p>
+
+                  <button class="special-btn shop-btn">Add To Cart</button>
+
+               </div>
+               <div class="">
+                  <h3>Vera Bubble Vase</h3>
+                  <h4>$42.00 _ $58.00</h4>
+                  <p>For the botanical beauty in your life, this giftable vase is the perfect place to display the
+                     overflowing florals she clips from her garden.</p>
+
+                  <button class="special-btn shop-btn">Add To Cart </button>
+
+               </div>
+            </div>
+
+            <div class=" right-slide  ">
+
+               <div class="  d-flex justify-content-center h-100"><img src="images/products/pro-1.jpg" alt="product">
+               </div>
+
+               <div class=" d-flex justify-content-center h-100"><img src="images/products/pro-2.jpg" alt="product">
+               </div>
+
+               <div class=" d-flex justify-content-center h-100"><img src="images/products/pro-3.jpg" alt="product">
+               </div>
+
+               <div class=" d-flex justify-content-center h-100"><img src="images/products/pro-4.jpg" alt="product">
+               </div>
+
+
+            </div>
+
+            <div class="action-buttons">
+
+               <button class="down-button v-button">
+                  <i class="fas fa-arrow-down"></i>
+               </button>
+               <button class="up-button v-button">
+                  <i class="fas fa-arrow-up"></i>
+               </button>
+            </div>
+
+
+         </div>
+      </div>
+
+   </section>
+   <!--======== NEW-COLLECTION-END ======== -->
+
+   <!--======== LIVING-ROOM-START ======== -->
+  <div id="living_room">
+
+   <div class="header w-100  flex-column align-content-start  ">
+         <div class=" p-4 justify-content-center d-flex align-items-center ">
+         <h2 class="main-text px-5 d-inline">Shop Living Rooms</h2>
+
+        </div>
+        </div>
+
+     <div class="room l-room  text-center d-flex align-items-center " >
+         <div class="w-50 ">
+         <h2>
+            Living <br> Rooms
+         </h2>
+       <p>A few improvements in your livingroom can make a big difference, both for falling asleep more easily and getting better sleep quality.  </p>
+      <a href="shop.html"><button class="shop-btn special-btn room-btn">Living rooms</button></a>
+   </div>
+      </div>
+
+   </div>
+   <!--======== LIVING-ROOMS-END ======== -->
+
+
+   <!--======== FOTTER-START ======== -->
+   <footer class="container-fluid  ">
+      <div class="footer-newsletter p-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h6>Our Newsletter</h6>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente non laborum voluptates? </p>
+                </div>
+                <div class="col-lg-6">
+                    <form action="" method="post"> <input type="email" name="email"><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ///////////////////// -->
+
+  <div class="container-fluid bottom-footer p-5">
+     <div class="row p-5 w-100">
+
+        <div class="col-md-6 ">
+           <div class="row">
+              <div class="col-md-6 ">
+
+                 <div class="logo-part">
+                    <a href="#"><img src="/images/LOGO-02.png" class=" logo-footer" ></a>
+                    <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, sed fugit placeat quaerat quasi ipsam aut ullam </p>
+                 </div>
+
+              </div>
+              <div class="col-md-6 text-end">
+                
+               
+                 
+              </div>
+           </div>
+        </div>
+        <div class="col-md-6">
+           <div class="row">
+              <div class="col-md-6 px-4">
+                 <h6> Help us</h6>
+                 <div class="row ">
+                    <div class="col-md-6 fot">
+                       <ul>
+                          <li> <a href="#"> Home</a> </li>
+                          <li> <a href="#"> About</a> </li>
+                          <li> <a href="#"> Service</a> </li>
+                          <li> <a href="#"> Team</a> </li>
+                          <li> <a href="#"> Help</a> </li>
+                          <li> <a href="#"> Contact</a> </li>
+                       </ul>
+                    </div>
+                    
+                 </div>
+              </div>
+              <div class="col-md-6 ">
+                 <h6> Follow Us</h6>
+                 <div class="social">
+                     <i class="fa-brands fa-facebook"></i>
+                     <i class="fa-brands fa-twitter"></i>
+                     <i class="fa-brands fa-instagram"></i>
+                     <i class="fa-brands fa-pinterest"></i>
+                 </div>
+                 <form class="form-inline d-flex justify-content-center w-100 " role="search">
+
+                  <input type="search" placeholder="search" style="font-family: Urbanist"
+                     aria-describedby="button-addon3" class="form-control search-box m-1 w-100" />
+
+                  <button class="special-btn srch-btn m-2" type="submit">
+                     <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+
+               </form>
+
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+
+  </footer>
+  <!--======== FOTTER-END ======== -->
+
+  <!-- <a href="#" class=" to-top-btn back-to-top" id="back-to-top">
+        <i class="fa fa-angle-double-up"></i>
+    </a> -->
+</body>
+
+</html>
+
+
+<!-- JAVASCRIPT FILES -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Kinsley Sofa",
+        "price": 2000,
+        
+        "image": { "fields": { "file": { "url": "../images/products/p-1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Roman Chair",
+        "price": 379.00,
+        "image": { "fields": { "file": { "url": "../images/products/p-2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Charlotte Chair",
+        "price": 999.00,
+        "image": { "fields": { "file": { "url": "../images/products/p-3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Chamberlin Sofa",
+        "price": 999.00,
+        "image": { "fields": { "file": { "url": "../images/products/p-4.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Outdoor ChairKinsley",
+        "price": 329.00,
+        "image": { "fields": { "file": { "url": "../images/products/p-5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Leather sofa",
+        "price": 3799.00,
+        "image": { "fields": { "file": { "url": "../images/products/p-6.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Covington Rug",
+        "price": 99.00,
+        "image": { "fields": { "file": { "url": "../images/products/p-7.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Wendall Sofa",
+        "price": 1.999,
+        "image": { "fields": { "file": { "url": "../images/products/p-8.jpg" } } }
+      }
+    }
+  ]
+}
