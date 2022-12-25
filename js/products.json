@@ -1,4 +1,5 @@
 {
+  
   "items": [
     {
       "sys": { "id": "1" },
@@ -53,7 +54,7 @@
       "sys": { "id": "7" },
       "fields": {
         "title": "Covington Rug",
-        "price": 99.00,
+        "price": 3799.00,
         "image": { "fields": { "file": { "url": "../images/products/p-7.jpg" } } }
       }
     },
@@ -61,7 +62,7 @@
       "sys": { "id": "8" },
       "fields": {
         "title": "Wendall Sofa",
-        "price": 1.999,
+        "price": 3799.00,
         "image": { "fields": { "file": { "url": "../images/products/p-8.jpg" } } }
       }
     }

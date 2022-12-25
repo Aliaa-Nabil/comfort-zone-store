@@ -6,11 +6,13 @@
 body {
   background-color: var(--main-color);
   margin: 0px !important;
- 
+
 }
-a{
+
+a {
   text-decoration: none
 }
+
 /*---------------------------------------
 FONTS            
 -----------------------------------------*/
@@ -86,19 +88,20 @@ Header------------
 
 @media screen and (max-width: 991px) {
   .main-text {
-   font-size: 30px;
-    
-    margin: auto;
-  
+    font-size: 30px;
+/* 
+    margin: auto; */
+
     padding: 0px !important;
   }
+
   .header a {
-  color: white;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: var(--second-font-family);
-  padding: 0px !important;
-}
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--second-font-family);
+    padding: 0px !important;
+  }
 
 }
 
@@ -111,15 +114,16 @@ ROOMS------------
   background-image: url("../images/bb.png");
   background-size: cover;
   background-position: center;
+  padding: 5%;
   /* border-top: solid 4px white */
 }
 
 .k-room {
-  background-image: url("/images/kk.png");
+  background-image: url("../images/kk.png");
 }
 
 .l-room {
-  background-image: url("/images/ll.png");
+  background-image: url("../images/ll.png");
 }
 
 .room button {
@@ -151,16 +155,14 @@ ROOMS------------
     font-size: 40px;
     margin-bottom: .5em;
   }
-
-  .room p {
-    margin: auto;
-    width: 100%;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0px;
-    margin-bottom: 0.5em;
-   color:var(--dark-brown);
-  }
+.room p {
+  width: 90%;
+  font-weight: 600;
+  letter-spacing: 0px;
+ color: var(--dark-brown);
+  margin-bottom: .5em;
+}
+  
 }
 
 /*---------------------------------------
@@ -215,11 +217,13 @@ BUTTONS////
   height: 50px;
   margin-bottom: 100px;
 }
-.slider-btn{
+
+.slider-btn {
   color: #2b1507;
   background-color: white;
 }
-.slider-btn:hover{
+
+.slider-btn:hover {
   color: white;
   background-color: var(--main-color);
 }
@@ -231,8 +235,8 @@ BUTTONS////
   border-color: var(--dark-brown);
 }
 
-.bag-btn{
-  font-family:'Bootstrap-icons';
+.bag-btn {
+  font-family: 'Bootstrap-icons';
   font-size: 20px;
   /* content:'\F174'; */
 }
@@ -255,6 +259,7 @@ TO-TOP-BUTTON
   width: 50px;
   height: 50px;
   text-align: center;
+  background-color: #2b1507;
 }
 
 .to-top-btn i {
@@ -270,18 +275,23 @@ TO-TOP-BUTTON
   }
 
   100% {
-    transform: translateY(-15px);
+    transform: translateY(-10px);
   }
 }
-@media screen and (max-width: 991px) {
-  .back-to-top{
-   position: absolute;
-   display: none;
-   z-index: 0;
-   
 
+@media screen and (max-width: 991px) {
+  .back-to-top {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    /* display: none; */
+    z-index: 0;
   }
-  
+    .to-top-btn i {
+      font-size: 10px;
+    
+    }
+
 }
 
 /*---------------------------------------
@@ -374,10 +384,19 @@ TO-TOP-BUTTON
   color: white;
   opacity: 1;
 }
+.phone-logo{
+  display: none;
+}
 
 /* RESPONSIVE STYLES//////////////////////// */
 
 @media screen and (max-width: 991px) {
+  .logo{
+    display: none;
+  }
+.phone-logo {
+  display: flex;
+}
   .navbar-nav,
   .nav-link,
   .form-inline {
@@ -399,7 +418,7 @@ TO-TOP-BUTTON
   width: 100%;
   height: 100%;
   text-align: center;
-  margin: 0px!important;
+  margin: 0px !important;
 }
 
 .caption-container h2 {
@@ -473,6 +492,7 @@ TO-TOP-BUTTON
   border-left: solid 4px white;
   border-right: solid 4px white;
 }
+
 .down {
   position: absolute;
   z-index: 100;
@@ -530,15 +550,17 @@ TO-TOP-BUTTON
 
 /* RESPONSIVE STYLES//////////////////////// */
 @media screen and (max-width: 991px) {
-  .hero{
+  .hero {
     height: 50vh;
-    padding-top:40px;
+    padding-top: 40px;
   }
- .slider-btn{
-  margin-top: 20px;
- }
-  .lower{
-  margin-top: 50%;
+
+  .slider-btn {
+    margin-top: 20px;
+  }
+
+  .lower {
+    margin-top: 50%;
   }
 
   .index {
@@ -554,10 +576,10 @@ TO-TOP-BUTTON
     font-size: 25px;
     font-weight: 800;
     letter-spacing: 5px;
-    margin-bottom: 0px !important ;
+    margin-bottom: 0px !important;
   }
 
-  
+
 }
 
 /*---------------------------------------
@@ -800,16 +822,19 @@ GET-INSPO-------POINTER-BANNER
 .pointer-circle.pointer-1 {
   left: 10%;
   top: 56%;
+  background-color: red;
 }
 
 .pointer-circle.pointer-2 {
   left: 60%;
   top: 70%;
+  background-color: green;
 }
 
-.pointer-circle.pointer-3.align-bottom {
+.pointer-circle.pointer-3 {
   left: 75%;
   top: 20%;
+  background-color: blue;
 }
 
 .info-box {
@@ -834,36 +859,8 @@ GET-INSPO-------POINTER-BANNER
   visibility: visible;
   opacity: 1;
   transition-delay: 0s;
-  -webkit-transform: translateY(-110%) translateX(50%);
-  transform: translateY(-110%) translateX(50%);
-}
-
-.pointer-circle.align-left .info-box {
-  position: absolute;
-  top: 50%;
-  right: auto;
-  left: 0;
-  -webkit-transform: translateY(-50%) translateX(-100%);
-  transform: translateY(-50%) translateX(-100%);
-}
-
-.pointer-circle.align-left:hover .info-box {
-  -webkit-transform: translateY(-50%) translateX(-110%);
-  transform: translateY(-50%) translateX(-110%);
-}
-
-.pointer-circle.align-bottom .info-box {
-  position: absolute;
-  top: auto;
-  right: 50%;
-  bottom: 0;
-  -webkit-transform: translateY(100%) translateX(50%);
-  transform: translateY(100%) translateX(50%);
-}
-
-.pointer-circle.align-bottom:hover .info-box {
-  -webkit-transform: translateY(110%) translateX(50%);
-  transform: translateY(110%) translateX(50%);
+  -webkit-transform: translateY(-105%) translateX(50%);
+  transform: translateY(-105%) translateX(50%);
 }
 
 /* /////////// */
@@ -898,9 +895,34 @@ GET-INSPO-------POINTER-BANNER
   font-family: var(--second-font-family);
 }
 
-@media screen {
-  
+@media screen and (max-width: 991px) {
+
+  .pointer-circle.pointer-3 {
+    left: 60%;
+  }
+
+  .info-box {
+    width: 100px;
+    border: 2px solid white;
+  }
+
+  .pointer-circle .info-box h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .pointer-circle .info-box p {
+    display: none;
+  }
+
+  .pointer-circle:hover .info-box {
+    
+    -webkit-transform: translateY(15%) translateX(50%);
+    transform: translateY(15%) translateX(50%);
+  }
+
 }
+
 
 /*---------------------------------------
 NEW COLLECTION-SECTION           
@@ -924,16 +946,14 @@ NEW COLLECTION-SECTION
   transition: transform 0.5s ease-in-out;
 }
 
-.left-slide > div {
+.left-slide>div {
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-self: start;
   align-items: center;
-  /* padding: 10% 10%; */
   background-color: var(--bg-color);
-  /* border: white solid 2px; */
   justify-content: center;
 }
 
@@ -941,7 +961,6 @@ NEW COLLECTION-SECTION
   font-size: 30px;
   text-align: center;
   font-family: var(--main-font-family);
-  /* margin: 0.1em 0.5em; */
   color: white;
 }
 
@@ -981,7 +1000,7 @@ NEW COLLECTION-SECTION
   transition: transform 0.5s ease-in-out;
 }
 
-.right-slide > div {
+.right-slide>div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1031,7 +1050,7 @@ NEW COLLECTION-SECTION
     z-index: 20;
   }
 
-  .left-slide > div {
+  .left-slide>div {
     height: 100%;
     width: 100%;
     background-color: rgba(128, 128, 128, 0.3);
@@ -1058,17 +1077,19 @@ NEW COLLECTION-SECTION
 /*---------------------------------------
 FOTTER-SECTION             
 -----------------------------------------*/
-footer{
-background-image: url("/images/fff.png");
-background-position: center;
-padding: 0 !important;
+footer {
+  background-image: url("../images/fff.png");
+  background-position: center;
+  padding: 0 !important;
 
 }
+
 .footer-newsletter {
   padding: 50px 0;
   background-color: var(--bg-color);
 }
-.footer-newsletter h6{
+
+.footer-newsletter h6 {
   background-color: var(--bg-color);
 }
 
@@ -1129,6 +1150,7 @@ padding: 0 !important;
   padding: 7px 30px;
   margin: 2em;
 }
+
 .btn-footer:hover {
   color: white;
   border: 2px solid white;
@@ -1176,7 +1198,9 @@ footer ul li a {
   text-decoration: none;
   margin-bottom: 10px;
 }
-footer a,p {
+
+footer a,
+p {
   text-decoration: none;
   text-decoration: none;
   font-family: var(--second-font-family);
@@ -1193,25 +1217,26 @@ footer a,p {
   margin: 0.5em;
   margin-bottom: 1em;
 }
+
 .social .fa-brands:hover {
   color: white;
 }
 
-
-
 @media screen and (max-width: 991px) {
 
-.here{
-  width: 50% !important;
-}
-  
-  .here h4{
+  .here {
+    width: 50% !important;
+  }
+
+  .here h4 {
     font-size: 14px;
   }
-  .here p{
+
+  .here p {
     font-size: 14px;
   }
-  .del{
+
+  .del {
     display: none;
   }
 }
