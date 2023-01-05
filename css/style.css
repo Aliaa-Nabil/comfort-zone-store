@@ -308,14 +308,12 @@ TO-TOP-BUTTON
   color: var(--white);
 }
 
-.logo {
+.my-logo {
   height: 50px;
   transition: 0.5s;
 }
 
-.logo:hover {
-  filter: invert(100%);
-}
+
 
 .navbar-toggler:focus {
   outline: none;
@@ -393,8 +391,10 @@ TO-TOP-BUTTON
 /* RESPONSIVE STYLES//////////////////////// */
 
 @media screen and (max-width: 991px) {
-  .logo{
-    height: 0px;
+
+
+.my-logo{
+height: 0px;
   }
 
 .phone-logo {
