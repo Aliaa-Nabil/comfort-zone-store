@@ -384,6 +384,11 @@ TO-TOP-BUTTON
   color: white;
   opacity: 1;
 }
+
+ .logo {
+   display: flex;
+ }
+ 
 .phone-logo{
   display: none;
 }
@@ -394,6 +399,7 @@ TO-TOP-BUTTON
   .logo{
     display: none;
   }
+
 .phone-logo {
   display: flex;
 }
