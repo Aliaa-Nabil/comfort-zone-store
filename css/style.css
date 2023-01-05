@@ -385,23 +385,20 @@ TO-TOP-BUTTON
   opacity: 1;
 }
 
- .logo {
-   display: flex;
- }
- 
+
 .phone-logo{
-  display: none;
+  height: 0px;
 }
 
 /* RESPONSIVE STYLES//////////////////////// */
 
 @media screen and (max-width: 991px) {
   .logo{
-    display: none;
+    height: 0px;
   }
 
 .phone-logo {
-  display: flex;
+ height: 50px;
 }
   .navbar-nav,
   .nav-link,
