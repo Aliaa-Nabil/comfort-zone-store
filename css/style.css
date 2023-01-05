@@ -822,19 +822,17 @@ GET-INSPO-------POINTER-BANNER
 .pointer-circle.pointer-1 {
   left: 10%;
   top: 56%;
-  background-color: red;
+
 }
 
 .pointer-circle.pointer-2 {
   left: 60%;
   top: 70%;
-  background-color: green;
 }
 
 .pointer-circle.pointer-3 {
   left: 75%;
   top: 20%;
-  background-color: blue;
 }
 
 .info-box {
