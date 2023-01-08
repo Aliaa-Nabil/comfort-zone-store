@@ -1,15 +1,8 @@
 # 🏠 comfort-zone-store
 
+- 3 page e-commerce website (home page -products list  page - product details page). 
+- Developed the website using html , css , bootstrap and javascript. 
 
-<p>
-- Created a 3 page e-commerce  website (home page -products list  page - product details page). <br>
-- Developed  the website using html , css , bootstrap and javascript. <br>
-- Conceptualized  the brand name , identity and colors based on  conducted  market research. <br>
-- Designed the website Ui on Adobe Xd.<br>
-- Illustrated the logo and brand patterns on adobe illustrator.
-<p>
-  
-  
   
  <img src="https://cdn.dribbble.com/users/7295990/screenshots/20320690/media/89d4e7359c18d86618e1e2b60f61fd27.png?compress=1&resize=768x576&vertical=top" alt="furniture website Design" /></p>
 
