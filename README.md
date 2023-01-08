@@ -1,15 +1,12 @@
 # 🏠 comfort-zone-store
 
 
-<p>This is a fictional website designed by me ! turned into a functional website using Html , css and javaScript.
-  
+<p>
 __ Created a 3 page e-commerce  website (home page -products list  page - product details page). <br>
 __ Developed  the website using html , css , bootstrap and javascript. <br>
 __ Conceptualized  the brand name , identity and colors based on  conducted  market research. <br>
 __ Designed the website Ui on Adobe Xd.<br>
 __ Illustrated the logo and brand patterns on adobe illustrator.
-
-
 <p>
   
   
