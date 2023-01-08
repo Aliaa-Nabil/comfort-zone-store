@@ -2,11 +2,11 @@
 
 
 <p>
-__ Created a 3 page e-commerce  website (home page -products list  page - product details page). <br>
-__ Developed  the website using html , css , bootstrap and javascript. <br>
-__ Conceptualized  the brand name , identity and colors based on  conducted  market research. <br>
-__ Designed the website Ui on Adobe Xd.<br>
-__ Illustrated the logo and brand patterns on adobe illustrator.
+- Created a 3 page e-commerce  website (home page -products list  page - product details page). <br>
+- Developed  the website using html , css , bootstrap and javascript. <br>
+- Conceptualized  the brand name , identity and colors based on  conducted  market research. <br>
+- Designed the website Ui on Adobe Xd.<br>
+- Illustrated the logo and brand patterns on adobe illustrator.
 <p>
   
   
@@ -16,6 +16,8 @@ __ Illustrated the logo and brand patterns on adobe illustrator.
 
 ## 💻 Live website :
 <a href="https://comfort-zone-store.vercel.app/">comfort-zone-store.vercel.app/</a>
+## 🎨 Branding :
+<a href="https://www.behance.net/gallery/154069565/Furnitur-_website-_branding-UiUx">comfort-zone-branding</a>
 
 ## 📫 Contact me :
 <br>
